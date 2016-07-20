@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="goods.css">
+	<script type="text/javascript" src="interaction.js"></script>
+	<!-- <script src="interaction.js"</script> -->
+</head>
+<body>
+<!-- Welcome and option to log out -->
+<span id="vName"><script>readCookie('myCookie')</script></span>
+<p>&copy</p>
+<!-- Social Media stuff -->
+<div class="icons">
+	<a href="http://www.yearup.org"><img src="pic\YU_gold+blue.gif" alt="Year Up Logo"></a>
+	<a href="https://www.facebook.com/yearup"><img src="pic\logo-facebook.png" alt="Facebook Year Up"></a>
+	<a href="https://twitter.com/YearUp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="pic\Twitter.ico" alt="Twitter Year Up" > </a>
+	<a href="https://www.youtube.com/user/YearUpInc"><img src="pic\youtube.ico" alt="Youtube Year Up"> </a>
+</div>
+<!-- Header navigation -->
+<div class="where">
+	<h1>Home</h1>
+	<nav>
+		<li>
+			<ul><a href="tools.html">Tools</a></ul>
+			<ul><a href="qa.html">QA</a></ul>
+			<ul><a href="YU.html">Year Up</a></ul>
+			<ul><a href="index.html">Home</a></ul>
+		</li>
+	</nav>
+</div>
+<!-- login, find way to make clickable -->
+<form name="frmLogin">
+	Enter Your Name to Log In: <input type="text" name="fname" size="20">
+	<input type="button" Value="Sign in" onClick="createCookie('myCookie',frmLogin.fname.value)"><br>
+</form>
+<!-- Start of content -->
+<div id="sums">
+	<h1>Welcome</h1>
+	<p> In this website I will tell you all about Year Up, as well as the tracks available and mostly Quality Assurance. Year Up is a fast track program with a mission to close the opportunity divide. Young adults in urban areas are taught business skills such as communicating with the body, and the proper formatting for an email among hard skills related to technology. Year Up also offers tracks to kick start one into the 
+	<br><img src="pic\bug-feature.png" alt="bug or feature"><br>
+	Quality Assurance is a general term for software testing. One in QA is in a position to oversee a product specification to meet with desired quality. There are many techniques that someone persuing software testing must have:<br>
+	<li>
+	<ul>Dynamic Black Box Testing</ul>
+	<ul>Dynamic White Box Testing</ul>
+	<ul>Static White Box Testing</ul>
+	<ul>Static Black Box Testing</ul>
+	</li><br>
+	<br> There are many ways one can get into software testing. However, software testing is not the only form of QA. QA spans into many fields besides technology. To learn more about either <a href="qa.html">software testing</a> or <a href="YU.html">Year Up</a> please click on the text, or help yourself to the navigation. ☺
+	</p>
+</div>
+<!-- text only footer navigation -->
+<div>
+	<nav>
+		<li class="where2">
+			<ul><a href="tools.html">Tools</a></ul>
+			<ul><a href="qa.html">QA</a></ul>
+			<ul><a href="YU.html">Year Up</a></ul>
+			<ul><a href="index.html">Home</a></ul>
+		</li>
+	</nav>
+</div>
+</body>
+</html>

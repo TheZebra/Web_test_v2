@@ -1,0 +1,162 @@
+*{
+
+}
+body{
+	background-color: #5C00CC;
+	color: #D18726;
+}
+/*social media links*/
+.icons img{
+	height: auto; 
+	width: 50px;
+}
+.icons a:hover{
+	opacity: 20%;
+}
+.icons{
+	width: 10px;
+	margin: 10px 300px 1px -8px;
+	float: left;
+	align-items: left;
+}
+/*Concerning the footer and header navigation*/
+li a{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+	color: #ff0f0f;
+}
+a:visited{
+	text-decoration: none;
+	color: #13dd24;
+}
+.where a:hover{
+	text-decoration: none;
+	color: #469435;
+	background-color: #2c1dcc;
+}
+.where2 a:hover{
+	text-decoration: none;
+	color: #469435;
+	background-color: #2c1dcc;
+}
+a:active{
+	text-decoration: line-through;
+	color: white;
+}
+.where{
+	list-style-type: none;
+	display: inline;
+}
+.where h1{
+	text-align: center;
+	margin: 5px 490px 5px -500px
+}
+.where ul{
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: auto;
+	width: 100px;	
+	font-size: 25px;
+	display: inline-block;
+	margin: 50px 20px 50px -20px;
+	list-style-type: none;
+}
+.where2{
+	list-style-type: none;
+	display: inline-block;
+	float: none;
+}
+.where2 ul{
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: auto;
+	width: 90px;	
+	font-size: 25px;
+	display: inline-block;
+	margin: 90px 20px 10px 90px;
+	list-style-type: none;
+}
+/*sign in button (obviously)*/
+.signin{
+	width: 400px;
+	margin: 10px 50px 5px 50px;
+	list-style-type: none;
+}
+.signin ul{
+	list-style-type: none;
+}
+#vName {
+	float:right;
+}
+/*Start of index/YU page 
+sums is common type set for summaries*/
+#sums h1{
+	font-size: 30px;
+	text-align: center;
+}
+#sums{
+	border-width: 4px;
+	border-color: red;
+	border: double solid none solid;
+}
+#sums ul{
+	list-style-type: none;
+}
+#sums{
+	list-style-type: none;
+	margin: 50px 45px 40px 60px;
+	color: orange;
+	font-family: Helvetica, san-serif;
+	font-size: 18px;
+}
+#sums img{
+	height: 250px;
+	margin: 12px 10px 12px 250px;
+}
+/*YU page, corporate partners*/
+#csponsers{
+	list-style-type: none;
+	margin: 12px 12px 12px 12px;
+	clear: both;
+	font-size-adjust: 60px;
+}
+#csponsers h3{
+	text-align: center;
+	font-size: 30px;
+}
+#csponsers b{
+	font-size: 25px;
+}
+#csponsers li{
+	list-style-type: none;
+	text-align: right;
+	margin: 5px 5px 20px 12px;
+	clear: both;
+	font-size: 20px;
+	width: 1000px;
+}
+#csponsers img{
+	float: left;
+	max-width: 400px;
+	width: 350px;
+}
+/*Tool page content*/
+#tlsheet{
+	list-style-type: none;
+}
+#tlsheet li{
+	list-style-type: none;
+	margin: 20px 15px 20px 25px;
+}
+#tlsheet b{
+	font-size: 25px;
+}
+#tlsheet img{
+	margin: 20px -50px 20px 300px;
+}

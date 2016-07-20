@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tools for Software Testing</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="goods.css">
+	<script type="text/javascript" src="interaction.js"></script>
+	<!-- <script src="interaction.js"</script> -->
+</head>
+<body>
+<!-- Welcome and option to log out -->
+<span id="vName"><script>readCookie('myCookie')</script></span>
+<p>&copy</p>
+<!-- social media stuff -->
+<div class="icons">
+	<a href="http://www.yearup.org"><img src="pic\YU_gold+blue.gif" alt="Year Up Logo"></a>
+	<a href="https://www.facebook.com/yearup"><img src="pic\logo-facebook.png" alt="Facebook Year Up"></a>
+	<a href="https://twitter.com/YearUp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="pic\Twitter.ico" alt="Twitter Year Up" > </a>
+	<a href="https://www.youtube.com/user/YearUpInc"><img src="pic\youtube.ico" alt="Youtube Year Up"> </a>
+</div>
+<!-- Header navigation -->
+<div class="where">
+	<h1>Tools For Software Testing</h1>
+	<nav>
+	<li>
+			<ul><a href="tools.html">Tools</a></ul>
+			<ul><a href="qa.html">QA</a></ul>
+			<ul><a href="YU.html">Year Up</a></ul>
+			<ul><a href="index.html">Home</a></ul>
+		</li>
+	</nav>
+</div>
+<!-- login, find way to make clickable -->
+<form name="frmLogin">
+	Enter Your Name to Log In: <input type="text" name="fname" size="20">
+	<input type="button" Value="Sign in" onClick="createCookie('myCookie',frmLogin.fname.value)"><br>
+</form>
+<!-- Start of content -->
+<div id="tlsheet">
+<img src="pic\bug.jpg" alt="Software Bug">
+	<ul>
+		<li><b><u>qTest</u></b>
+		<br> 
+		QTest is a testing platform made to work with Agile Team in recording bugs and tracking fixes. This platform gives allows teams to be more efficient in and effective </li>
+		<li><b><u>PractiTest</u></b>
+		<br>
+		PractiTest manages the QA and testing process. Creating a streamlined process for tracking bugs and past processes to integrate. With the ability to oragnize it all with a smart filter.</li>
+		<li><b><u>Zephy</u></b>
+		<br>
+		</li>
+		<li><b><u>Test Collab</u></b></li>
+		<li><b><u>TestFLO for JIRA</u></b></li>
+		<li><b><u>XQual</u></b></li>
+	</ul>
+</div>
+<!-- text only footer navigation -->
+<div>
+	<nav>
+		<li class="where2">
+			<ul><a href="tools.html">Tools</a></ul>
+			<ul><a href="qa.html">QA</a></ul>
+			<ul><a href="YU.html">Year Up</a></ul>
+			<ul><a href="index.html">Home</a></ul>
+		</li>
+	</nav>
+</div>
+</body>
